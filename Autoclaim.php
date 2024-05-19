@@ -15,7 +15,7 @@ to = client.get_entity("waveonsuibot")
 def main():	
   client.send_message(entity=to, message="claim Now")
   time.sleep(10)
-  msg = client.get_messages("hiofficialbot")[0].click(0)
+  msg = client.get_messages("waveonsuibot")[0].click(0)
 
 
 while True:
